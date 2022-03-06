@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 30px;
+  color: #00277e;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 30px;
+}
+
+.nav-item a {
+  color: #00277e;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.main-visual {
+  margin-top: 10%;
+}
+
+.image-box {
+  margin: 0 0 0 auto;
+  width: 50%;
+  height: 50%;
+  z-index: 0;
+  position: relative;
+}
+
+.main-message {
+  font-size: 70px;
+}
+
+.navy-box {
+  width: 75vw;
+  height: 200px;
+  background-color: #00277e;
+}
+
+.message-box {
+  position: absolute;
+  transform: translate(0px, -170px);
+  z-index: -10;
+}
